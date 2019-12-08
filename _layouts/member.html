@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<div class="col-sm-12">
+    <div class=row>
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/team">Team</a></li>
+            <li class="breadcrumb-item text-capitalize"><a href="/team#{{ page.category }}">{{ page.category }}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+        </ol>
+        </nav>
+    </div>
+    <div class="row text-center">
+        <!-- Avatar -->
+        <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ page.image }}"
+             class="img-circle"
+             style="filter: grayscale(100%); max-width: 200px;"/>
+
+        <!-- Name & Role -->
+        <h1>{{ page.title }}</h1>
+        <h3>{{ page.role }}</h3>
+
+        <!-- Social -->
+        <ul class="list-inline list-unstyled">
+            <!-- Twitter -->
+            {% if page.social.twitter %}
+                <li><a target="blank" href="{{page.social.twitter}}"><i class="fab fa-twitter"></i></a></li>
+            {% endif %}
+            <!-- Linkedin -->
+            {% if page.social.linkedin %}
+                <li><a target="blank" href="{{page.social.linkedin}}"><i class="fab fa-linkedin"></i></a></li>
+            {% endif %}
+            <!-- Github -->
+            {% if page.social.github %}
+                <li><a target="blank" href="{{page.social.github}}"><i class="fab fa-github"></i></a></li>
+            {% endif %}
+            <!-- Personal Website -->
+            {% if page.social.website %}
+                <li><a target="blank" href="{{page.social.website}}"><i class="fas fa-globe"></i></a></li>
+            {% endif %}
+            <!-- Google Scholar -->
+            {% if page.social.google-scholar %}
+                <li><a target="blank" href="{{page.social.google-scholar}}"><i class="fab fa-google"></i></a></li>
+            {% endif %}
+            <!-- Orcid -->
+            {% if page.social.orcid %}
+                <li><a target="blank" href="{{page.social.orcid}}"><i class="fab fa-orcid"></i></a></li>
+            {% endif %}
+            <!-- Research Gate -->
+            {% if page.social.research-gate %}
+                <li><a target="blank" href="{{page.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
+            {% endif %}
+        </ul>
+    </div>
+
+    <!-- Education -->
+    <div class="row">
+        <h3>Education</h3>
+        <ul class="list-unstyled">
+            {% for education in page.education %}
+                <li>{{education}}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Bio -->
+    <div class="row">
+        <h3>Bio</h3>
+        {{ content }}
+    </div>
+</div>

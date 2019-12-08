@@ -1,0 +1,52 @@
+---
+---
+
+@import "bootstrap";
+
+body {
+  padding-top: 70px;
+  text-align: justify;
+}
+
+figcaption {
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  background: none;
+  border: none;
+  display: block;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.nopadding-left {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.nopadding-right {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+.team-member-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 900px; /* or 950px */
+}
+
+/* Carousel */
+
+.carousel {
+  border-radius: 3px 3px 3px 3px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

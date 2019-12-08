@@ -1,0 +1,40 @@
+[
+	{
+		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
+		"type": "article-journal",
+		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
+		"container-title": "IEEE Transactions on Medical Imaging",
+		"page": "448-459",
+		"volume": "38",
+		"issue": "2",
+		"source": "IEEE Xplore",
+		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
+		"DOI": "10.1109/TMI.2018.2865709",
+		"author": [
+			{
+				"family": "Naylor",
+				"given": "P."
+			},
+			{
+				"family": "Laé",
+				"given": "M."
+			},
+			{
+				"family": "Reyal",
+				"given": "F."
+			},
+			{
+				"family": "Walter",
+				"given": "T."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					2
+				]
+			]
+		}
+	}
+]
