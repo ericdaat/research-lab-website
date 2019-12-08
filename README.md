@@ -1,6 +1,8 @@
 # Research lab website template
 
-This website is built with [Jekyll](https://jekyllrb.com/). It is derived from the great template provided by the [Allan Lab](https://www.allanlab.org/aboutwebsite.html), at Leiden University.
+This website is built with [Jekyll](https://jekyllrb.com/).
+It is derived from the great template provided by the
+[Allan Lab](https://www.allanlab.org/aboutwebsite.html), at Leiden University.
 
 ## Setup
 
@@ -27,7 +29,8 @@ bundle exec jekyll serve
 
 ### Add a new member
 
-New members are stored as markdown files under [_pages/team/_posts](_pages/team/_posts).
+New members are stored as markdown files under
+[_pages/team/_posts](_pages/team/_posts).
 
 Each new member `.md` file must look like this:
 
@@ -51,45 +54,51 @@ education:
  - Education
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.
 ```
 
 ### Add a new publication
 
 Publications are stored as `.json` file under
 [_data/publications.json](_data/publications.json).
-This json file is exported from Zotero bibliography tool.
+This json file is exported from [Zotero](https://www.zotero.org/)
+bibliography tool.
 
 Just add a new entry to the list like this:
 
 ``` json
 {
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
-		"type": "article-journal",
-		"title": "Foo",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "Bar",
-		"DOI": "10.1109/TMI.2018.2865709",
-		"author": [
-			{
-				"family": "",
-				"given": ""
-			},
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019",
-					2
-				]
-			]
-		}
-	}
-]
+  "id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
+  "type": "article-journal",
+  "title": "Foo",
+  "container-title": "IEEE Transactions on Medical Imaging",
+  "page": "448-459",
+  "volume": "38",
+  "issue": "2",
+  "source": "IEEE Xplore",
+  "abstract": "Bar",
+  "DOI": "10.1109/TMI.2018.2865709",
+  "author": [
+    {
+      "family": "",
+      "given": ""
+    },
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        "2019",
+        2
+      ]
+    ]
+  }
+}
 ```
 
 ### Add news
@@ -113,5 +122,6 @@ An entry looks like the following:
 
 ### Edit template
 
-We use [Bootstrap](https://getbootstrap.com/) for designing the website. Feel free to modify either the [_pages](_pages/) or the
+We use [Bootstrap](https://getbootstrap.com/) for designing the website.
+Feel free to modify either the [_pages](_pages/) or the
 [_layouts](_layouts/) components.
