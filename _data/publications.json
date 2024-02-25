@@ -2,37 +2,33 @@
 	{
 		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
 		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
+		"title": "Different necking models in predicting the measured scattering matrix of soot aggregates",
+		"container-title": "Journal of Aerosol Science",
+		"page": "160194",
+		"volume": "172",
+		"issue": "1",
+		"source": "ScienceDirect",
+		"abstract": "Generating realistic aggregates is crucial for accurate optical characterization of soot. Necking is a minor structural defect that is commonly observed in soot aggregates, but it is generally not implemented in numerical soot aggregates attributable to the challenges in modeling necking properly and conducting simulations on the resultant complex structures. In this study, a methodology is developed to conduct a quantitative analysis of the performance of different necking models in estimating the scattering matrix elements of soot based on comparisons with measurement data. Morphological parameters and measured scattering matrix associated with re-aerosolized toluene soot samples are derived from an experimental study in the literature. Aggregates formed by both monodisperse and polydisperse primary particles are generated via the tunable algorithm with particle-cluster aggregation based on the derived morphological parameters. The level-set function model and a modified cylindrical connector model are used to implement necking to neighboring primary particles of different levels. The scattering simulations are conducted based on the discrete dipole approximation. The resultant scattering matrix elements are compared with the experimental data and the performances of different necking models in predicting the measurement data are discussed. According to the results, implementing necking is not sufficient to predict the overall scattering matrix elements accurately, but it has considerable effects on specific scattering matrix elements which contributes to diminishing deviations from the measurements. Additionally, the differences in accuracy of the two alternative necking models are insignificant for comparable aggregate volumes. The modified cylindrical connector model is favored considering its simplicity.",
+		"DOI": "10.1016/j.jaerosci.2023.106194",
 		"author": [
 			{
-				"family": "Naylor",
-				"given": "P."
+				"family": "Yazıcı",
+				"given": "HI"
 			},
 			{
-				"family": "Laé",
-				"given": "M."
+				"family": "Ertürk",
+				"given": "H"
 			},
 			{
-				"family": "Reyal",
-				"given": "F."
+				"family": "Liu",
+				"given": "F"
 			},
-			{
-				"family": "Walter",
-				"given": "T."
-			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2019",
-					2
+					"2023",
+					8
 				]
 			]
 		}
